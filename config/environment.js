@@ -31,6 +31,14 @@ module.exports = function (environment) {
     // ENV.APP.LOG_VIEW_LOOKUPS = true;
   }
 
+  if (environment === 'github') {
+    ENV['ember-cli-mirage'] = {
+      enabled: false,
+    };
+    ENV.locationType = 'hash';
+    ENV.rootURL = 'zakupki-anaylytics/';
+  }
+
   if (environment === 'test') {
     // Testem prefers this...
     ENV.locationType = 'none';
