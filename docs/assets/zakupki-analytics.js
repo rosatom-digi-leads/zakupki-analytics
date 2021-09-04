@@ -1836,19 +1836,6 @@
     }
   });
 });
-;define("zakupki-analytics/components/welcome-page", ["exports", "ember-welcome-page/components/welcome-page"], function (_exports, _welcomePage) {
-  "use strict";
-
-  Object.defineProperty(_exports, "__esModule", {
-    value: true
-  });
-  Object.defineProperty(_exports, "default", {
-    enumerable: true,
-    get: function () {
-      return _welcomePage.default;
-    }
-  });
-});
 ;define("zakupki-analytics/data-adapter", ["exports", "@ember-data/debug"], function (_exports, _debug) {
   "use strict";
 
@@ -3923,7 +3910,7 @@ catch(err) {
 
 ;
           if (!runningTests) {
-            require("zakupki-analytics/app")["default"].create({"name":"zakupki-analytics","version":"0.0.0+b9f1d0f4"});
+            require("zakupki-analytics/app")["default"].create({"name":"zakupki-analytics","version":"0.0.0+89e89d58"});
           }
         
 //# sourceMappingURL=zakupki-analytics.map

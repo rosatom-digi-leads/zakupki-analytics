@@ -36,7 +36,7 @@ module.exports = function (environment) {
       enabled: false,
     };
     ENV.locationType = 'hash';
-    ENV.rootURL = 'zakupki-anaylytics/';
+    ENV.rootURL = 'zakupki-analytics/';
   }
 
   if (environment === 'test') {
